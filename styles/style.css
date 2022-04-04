@@ -37,9 +37,10 @@
 
 .main-menu .section{
   display: grid;
-  grid-template-columns: 50px max-content max-content max-content;
+  grid-template-columns: 30px max-content max-content max-content;
   gap: 10px;
   padding: 5px;
+  align-items: center;
 }
 
 .main-menu .section:nth-child(even) {
@@ -52,11 +53,15 @@
 }
 
 .main-menu .section img{
-  width: 50px;
+  width: 30px;
 }
 
 .main-menu .section #title{
   color: blue;
+}
+
+.main-menu .section p{
+  color: rgb(110, 110, 110);
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -73,4 +78,9 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  .main-menu .section p{
+    font-size: 12px;
+  }  
+}
+
