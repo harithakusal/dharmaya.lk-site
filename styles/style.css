@@ -8,12 +8,10 @@
 .navMenu a {
   color: grey;
   text-decoration: none;
-  font-size: 1.1em;
-  font-weight: 500;
+  font-size: 1.0em;
+  font-weight: 100;
   display: inline-block;
-  width: 80px;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  width: 60px;
 }
 
 .navMenu a:hover {
@@ -31,7 +29,6 @@
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid rgb(223, 223, 223);
   padding: 10px 0;
 }
 
@@ -82,5 +79,19 @@
   .main-menu .section p{
     font-size: 12px;
   }  
+}
+
+
+.about {
+  margin: auto;
+  max-width: 700px;
+  padding-top: 100px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.myfont {
+  
+  font-family: 'Noto Sans Sinhala', sans-serif;
 }
 
