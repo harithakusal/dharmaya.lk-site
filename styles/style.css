@@ -64,6 +64,11 @@
 
 .main-menu .section p{
   color: rgb(110, 110, 110);
+  text-decoration: none;
+}
+
+.main-menu .section a{
+  text-decoration: none;
 }
 
 .myfont{
@@ -131,3 +136,4 @@
   font-size: 15px;
   text-align: center;
 }
+
