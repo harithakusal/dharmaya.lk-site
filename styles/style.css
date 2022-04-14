@@ -131,9 +131,10 @@
 
 .about {
   margin: auto;
-  max-width: 700px;
+  max-width: 600px;
   padding-top: 100px;
   font-size: 15px;
   text-align: center;
+  font-family: 'Noto Sans Sinhala', sans-serif
 }
 
