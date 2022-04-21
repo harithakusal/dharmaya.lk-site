@@ -107,6 +107,15 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+  .navMenu {
+    width: fit-content;
+  }
+  
+  .main-menu{
+    max-width: 1000px;
+    width: 95%;
+  }
+
   .myfont{
     grid-template-columns: 40% 40%;
   }
