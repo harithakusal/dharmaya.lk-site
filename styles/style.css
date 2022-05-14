@@ -60,6 +60,8 @@
 
 .main-menu .section #title{
   color: blue;
+  position: relative;
+  top: 25%;
 }
 
 .main-menu .section p{
